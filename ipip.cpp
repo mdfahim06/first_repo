@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    long long i,x=0,n,y;
+    cin>>n;
+        if(n%2==0) x=n/2;
+        else x=-(n+1)/2;
+    
+    cout<<x;
+    return 0;
+}
